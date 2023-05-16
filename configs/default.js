@@ -42,7 +42,7 @@ module.exports = {
     'no-extra-semi': 'error',
 
     // Disallow duplicate imports
-    'no-duplicate-imports': 'error',
+    'import/no-duplicates': 'error',
 
     // Require the use of === and !==
     // https://eslint.org/docs/rules/eqeqeq
