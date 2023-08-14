@@ -39,6 +39,12 @@ module.exports = {
         onlyForFunctionsWithNames: ['classNames'],
       },
     ],
+    '@vkontakte/no-computed-hit-css-modules': [
+      'error',
+      {
+        cssModulesSuffix: '.module.css'
+      },
+    ],
   },
   settings: {
     react: {
