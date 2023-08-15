@@ -18,9 +18,9 @@ module.exports = {
     ],
   },
   create(context) {
-    /** @param node {import('estree').Expression} */
+    /** @param node {import('estree').Expression | undefined} */
     const checkExpression = (node) => {
-      if (node.type !== 'Identifier' || !importSpecifiers.has(node.name)) {
+      if (!node || node.type !== 'Identifier' || !importSpecifiers.has(node.name)) {
         return;
       }
 
@@ -88,10 +88,6 @@ module.exports = {
 
       // const cls = styles
       VariableDeclarator(node) {
-        if (!node.init) {
-          return;
-        }
-
         checkExpression(node.init);
       },
 
