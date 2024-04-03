@@ -8,9 +8,6 @@
     "ESLint config"
   ],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "bumbledos@gmail.com",
   "license": "MIT",
   "repository": {
@@ -21,21 +18,21 @@
     "yarn": "^1.21.1"
   },
   "dependencies": {
-    "@babel/core": "^7.20.12",
-    "@babel/eslint-parser": "^7.19.1",
-    "@typescript-eslint/parser": "^5.50.0",
+    "@babel/core": "^7.24.3",
+    "@babel/eslint-parser": "^7.24.1",
+    "@typescript-eslint/parser": "^7.5.0",
     "eslint-config-google": "^0.9.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
     "eslint": "^8.33.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.27.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.4.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
     "eslint": "^8.33.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.27.0",
