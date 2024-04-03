@@ -114,6 +114,11 @@ const namingConventionOptions = ['error',
     format: null,
     modifiers: ['requiresQuotes'],
   },
+
+  {
+    selector: 'import',
+    format: ['camelCase', 'PascalCase'],
+  },
 ];
 
 module.exports = {
