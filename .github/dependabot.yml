@@ -6,12 +6,8 @@ updates:
       interval: 'daily'
     allow:
       - dependency-type: 'direct'
-    reviewers:
-      - 'VKCOM/vk-sec'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'daily'
-    reviewers:
-      - 'VKCOM/vk-sec'
